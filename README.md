@@ -7,3 +7,4 @@ g++ -o freq_perc freq_perc.cpp -lm\
 chmod u+x KM_PF_run_DESeq_stats.R\
 
 2. Extract sequence reads mapped to a class of interest (e.g., Eurotatoria) from a DIAMOND output table in the BLAST tabular format.\
+
