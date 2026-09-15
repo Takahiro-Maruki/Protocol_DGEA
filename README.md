@@ -9,3 +9,4 @@ chmod u+x KM_PF_run_DESeq_stats.R<br>
 
 2. Extract sequence reads mapped to a class of interest (e.g., Eurotatoria) from a DIAMOND output table in the BLAST tabular format.<br>  
 taxonkit list --ids 2816136 --indent "" > IDs_Eurotatoria.txt<br>
+./ext_reads_taxon -in Trimmed_environmental_RNA_F6.ribodepleted.nr_6c.table -list IDs_Eurotatoria.txt -out Eurotatoria_Trimmed_environmental_RNA_F6.ribodepleted.nr_6c.table<br>
