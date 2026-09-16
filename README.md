@@ -3,8 +3,8 @@ Protocol for the differential gene expression analysis in the environmental tran
 
 0. Compile the C++ programs, install taxonkit, and make the R script executable.<br>
 g++ -o ext_reads_taxon ext_reads_taxon.cpp -lm<br>
-Download and install taxonkit following the instructions at https://bioinf.shenwei.me/taxonkit/download/<br>
 g++ -o freq_perc freq_perc.cpp -lm<br>
+Download and install taxonkit following the instructions at https://bioinf.shenwei.me/taxonkit/download/<br>
 chmod u+x KM_PF_run_DESeq_stats.R<br> 
 
 2. Extract sequence reads mapped to a class of interest (e.g., Eurotatoria) from a DIAMOND output table in the BLAST tabular format.<br>  
