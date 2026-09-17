@@ -7,7 +7,7 @@ g++ -o freq_perc freq_perc.cpp -lm<br>
 Download and install taxonkit following the instructions at https://bioinf.shenwei.me/taxonkit/download/<br>
 chmod u+x KM_PF_run_DESeq_stats.R<br> 
 
-2. Extract sequence reads mapped to a class of interest (e.g., Eurotatoria) from a DIAMOND output table in the BLAST tabular format.<br>  
+1. Extract sequence reads mapped to a class of interest (e.g., Eurotatoria) from a DIAMOND output table in the BLAST tabular format.<br>  
 taxonkit list --ids 2816136 --indent "" > IDs_Eurotatoria.txt<br>
 ./ext_reads_taxon -in Trimmed_environmental_RNA_F6.ribodepleted.nr_6c.table -list IDs_Eurotatoria.txt -out Eurotatoria_Trimmed_environmental_RNA_F6.ribodepleted.nr_6c.table<br>
 ./ext_reads_taxon -in Trimmed_environmental_RNA_J1.ribodepleted.nr_6c.table -list IDs_Eurotatoria.txt -out Eurotatoria_Trimmed_environmental_RNA_J1.ribodepleted.nr_6c.table<br>
@@ -16,3 +16,5 @@ taxonkit list --ids 2816136 --indent "" > IDs_Eurotatoria.txt<br>
 ./ext_reads_taxon -in Trimmed_environmental_RNA_G7.ribodepleted.nr_6c.table -list IDs_Eurotatoria.txt -out Eurotatoria_Trimmed_environmental_RNA_G7.ribodepleted.nr_6c.table<br>
 ./ext_reads_taxon -in Trimmed_environmental_RNA_K5.ribodepleted.nr_6c.table -list IDs_Eurotatoria.txt -out Eurotatoria_Trimmed_environmental_RNA_K5.ribodepleted.nr_6c.table<br>
 
+2. Make input files of the R script to run DESeq2.<br>
+cut -f 2 Eurotatoria_Trimmed_environmental_RNA_F6.ribodepleted.nr_6c.table | sort | uniq -c | sort -nr | sed "s/^[ \t]*//" | sed 's/ /\t/' > freq_sseqid_Eurotatoria_Trimmed_environmental_RNA_F6.ribodepleted.nr_6c.table<br>
