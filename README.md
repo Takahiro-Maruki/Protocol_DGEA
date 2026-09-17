@@ -20,5 +20,7 @@ taxonkit list --ids 2816136 --indent "" > IDs_Eurotatoria.txt<br>
 cut -f 2 Eurotatoria_Trimmed_environmental_RNA_F6.ribodepleted.nr_6c.table | sort | uniq -c | sort -nr | sed "s/^[ \t]*//" | sed 's/ /\t/' > freq_sseqid_Eurotatoria_Trimmed_environmental_RNA_F6.ribodepleted.nr_6c.table<br>
 cut -f 2 Eurotatoria_Trimmed_environmental_RNA_J1.ribodepleted.nr_6c.table | sort | uniq -c | sort -nr | sed "s/^[ \t]*//" | sed 's/ /\t/' > freq_sseqid_Eurotatoria_Trimmed_environmental_RNA_J1.ribodepleted.nr_6c.table<br>
 cut -f 2 Eurotatoria_Trimmed_environmental_RNA_J3.ribodepleted.nr_6c.table | sort | uniq -c | sort -nr | sed "s/^[ \t]*//" | sed 's/ /\t/' > freq_sseqid_Eurotatoria_Trimmed_environmental_RNA_J3.ribodepleted.nr_6c.table<br>
-
+cut -f 2 Eurotatoria_Trimmed_environmental_RNA_G5.ribodepleted.nr_6c.table | sort | uniq -c | sort -nr | sed "s/^[ \t]//" | sed 's/ /\t/' > freq_sseqid_Eurotatoria_Trimmed_environmental_RNA_G5.ribodepleted.nr_6c.table<br>
+cut -f 2 Eurotatoria_Trimmed_environmental_RNA_G7.ribodepleted.nr_6c.table | sort | uniq -c | sort -nr | sed "s/^[ \t]//" | sed 's/ /\t/' > freq_sseqid_Eurotatoria_Trimmed_environmental_RNA_G7.ribodepleted.nr_6c.table<br>
+cut -f 2 Eurotatoria_Trimmed_environmental_RNA_K5.ribodepleted.nr_6c.table | sort | uniq -c | sort -nr | sed "s/^[ \t]*//" | sed 's/ /\t/' > freq_sseqid_Eurotatoria_Trimmed_environmental_RNA_K5.ribodepleted.nr_6c.table<br>
 
