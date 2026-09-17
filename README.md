@@ -23,4 +23,10 @@ cut -f 2 Eurotatoria_Trimmed_environmental_RNA_J3.ribodepleted.nr_6c.table | sor
 cut -f 2 Eurotatoria_Trimmed_environmental_RNA_G5.ribodepleted.nr_6c.table | sort | uniq -c | sort -nr | sed "s/^[ \t]//" | sed 's/ /\t/' > freq_sseqid_Eurotatoria_Trimmed_environmental_RNA_G5.ribodepleted.nr_6c.table<br>
 cut -f 2 Eurotatoria_Trimmed_environmental_RNA_G7.ribodepleted.nr_6c.table | sort | uniq -c | sort -nr | sed "s/^[ \t]//" | sed 's/ /\t/' > freq_sseqid_Eurotatoria_Trimmed_environmental_RNA_G7.ribodepleted.nr_6c.table<br>
 cut -f 2 Eurotatoria_Trimmed_environmental_RNA_K5.ribodepleted.nr_6c.table | sort | uniq -c | sort -nr | sed "s/^[ \t]*//" | sed 's/ /\t/' > freq_sseqid_Eurotatoria_Trimmed_environmental_RNA_K5.ribodepleted.nr_6c.table<br>
+./freq_perc -in freq_sseqid_Eurotatoria_Trimmed_environmental_RNA_F6.ribodepleted.nr_6c.table -out sseqid_Eurotatoria_environmental_RNA_F6_function.tsv<br>
+./freq_perc -in freq_sseqid_Eurotatoria_Trimmed_environmental_RNA_J1.ribodepleted.nr_6c.table -out sseqid_Eurotatoria_environmental_RNA_J1_function.tsv<br>
+./freq_perc -in freq_sseqid_Eurotatoria_Trimmed_environmental_RNA_J3.ribodepleted.nr_6c.table -out sseqid_Eurotatoria_environmental_RNA_J3_function.tsv<br>
+./freq_perc -in freq_sseqid_Eurotatoria_Trimmed_environmental_RNA_G5.ribodepleted.nr_6c.table -out sseqid_Eurotatoria_environmental_RNA_G5_function.tsv<br>
+./freq_perc -in freq_sseqid_Eurotatoria_Trimmed_environmental_RNA_G7.ribodepleted.nr_6c.table -out sseqid_Eurotatoria_environmental_RNA_G7_function.tsv<br>
+./freq_perc -in freq_sseqid_Eurotatoria_Trimmed_environmental_RNA_K5.ribodepleted.nr_6c.table -out sseqid_Eurotatoria_environmental_RNA_K5_function.tsv<br>
 
