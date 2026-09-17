@@ -19,3 +19,6 @@ taxonkit list --ids 2816136 --indent "" > IDs_Eurotatoria.txt<br>
 2. Make input files of the R script to run DESeq2 (KM_PF_run_DESeq_stats.R).<br>
 cut -f 2 Eurotatoria_Trimmed_environmental_RNA_F6.ribodepleted.nr_6c.table | sort | uniq -c | sort -nr | sed "s/^[ \t]*//" | sed 's/ /\t/' > freq_sseqid_Eurotatoria_Trimmed_environmental_RNA_F6.ribodepleted.nr_6c.table<br>
 cut -f 2 Eurotatoria_Trimmed_environmental_RNA_J1.ribodepleted.nr_6c.table | sort | uniq -c | sort -nr | sed "s/^[ \t]*//" | sed 's/ /\t/' > freq_sseqid_Eurotatoria_Trimmed_environmental_RNA_J1.ribodepleted.nr_6c.table<br>
+cut -f 2 Eurotatoria_Trimmed_environmental_RNA_J3.ribodepleted.nr_6c.table | sort | uniq -c | sort -nr | sed "s/^[ \t]*//" | sed 's/ /\t/' > freq_sseqid_Eurotatoria_Trimmed_environmental_RNA_J3.ribodepleted.nr_6c.table<br>
+
+
