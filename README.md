@@ -29,4 +29,9 @@ cut -f 2 Eurotatoria_Trimmed_environmental_RNA_K5.ribodepleted.nr_6c.table | sor
 ./freq_perc -in freq_sseqid_Eurotatoria_Trimmed_environmental_RNA_G5.ribodepleted.nr_6c.table -out sseqid_Eurotatoria_environmental_RNA_G5_function.tsv<br>
 ./freq_perc -in freq_sseqid_Eurotatoria_Trimmed_environmental_RNA_G7.ribodepleted.nr_6c.table -out sseqid_Eurotatoria_environmental_RNA_G7_function.tsv<br>
 ./freq_perc -in freq_sseqid_Eurotatoria_Trimmed_environmental_RNA_K5.ribodepleted.nr_6c.table -out sseqid_Eurotatoria_environmental_RNA_K5_function.tsv<br>
-
+mv sseqid_Eurotatoria_environmental_RNA_F6_function.tsv control_eRNA-F6.tsv<br>
+mv sseqid_Eurotatoria_environmental_RNA_J1_function.tsv control_eRNA-J1.tsv<br>
+mv sseqid_Eurotatoria_environmental_RNA_J3_function.tsv control_eRNA-J3.tsv<br>
+mv sseqid_Eurotatoria_environmental_RNA_G5_function.tsv control_eRNA-G5.tsv<br>
+mv sseqid_Eurotatoria_environmental_RNA_G7_function.tsv control_eRNA-G7.tsv<br>
+mv sseqid_Eurotatoria_environmental_RNA_K5_function.tsv control_eRNA-K5.tsv<br>
