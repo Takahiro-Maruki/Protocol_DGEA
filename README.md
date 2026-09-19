@@ -35,3 +35,5 @@ mv sseqid_Eurotatoria_environmental_RNA_J3_function.tsv control_eRNA-J3.tsv<br>
 mv sseqid_Eurotatoria_environmental_RNA_G5_function.tsv control_eRNA-G5.tsv<br>
 mv sseqid_Eurotatoria_environmental_RNA_G7_function.tsv control_eRNA-G7.tsv<br>
 mv sseqid_Eurotatoria_environmental_RNA_K5_function.tsv control_eRNA-K5.tsv<br>
+
+3. Run the R script to run DESeq2 (KM_PF_run_DESeq_stats.R).<br>
