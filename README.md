@@ -41,8 +41,8 @@ Rscript ./KM_PF_run_DESeq_stats.R -I ./ -O KM_PF_sseqid_Eurotatoria_function_eRN
 
 References<br>
 If you use programs used in this protocol, please cite the following papers:<br>
-Klingenberg H., Meinicke P., 2017. How to normalize metatranscriptomic count data for differential expression analysis. PeerJ 5: e3859.<br>
-Shen W., Ren H., 2021. TaxonKit: A practical and efficient NCBI taxonomy toolkit. J Genet Genomics 48: 844-850.<br>
+Klingenberg H., and Meinicke P., 2017. How to normalize metatranscriptomic count data for differential expression analysis. PeerJ 5: e3859.<br>
+Shen W., and Ren H., 2021. TaxonKit: A practical and efficient NCBI taxonomy toolkit. J Genet Genomics 48: 844-850.<br>
 Westreich S.T., Treiber M.L., Mills D.A., Korf I., Lemay D.G., 2018. SAMSA2: a standalone metatranscriptome analysis pipeline. BMC Bioinformatics 19: 175.<br>
 Maruki, T., He, X., Hechler, R. M., Gamero, W. M., Gros, M., Belley, V., Nault, C., Fussmann, 
 G. F., Gonzalez, A., Fugère, V., and Cristescu, M. E., Environmental RNA captures eukaryotic community and gene expression responses to eutrophication in freshwater ecosystems.  In revision.<br>
