@@ -41,6 +41,6 @@ Rscript ./KM_PF_run_DESeq_stats.R -I ./ -O KM_PF_sseqid_Eurotatoria_function_eRN
 
 References<br>
 If you use programs used in this protocol, please cite the following papers:<br>
-Westreich ST, Treiber ML, Mills DA, Korf I, Lemay DG. 2018. SAMSA2: a standalone metatranscriptome analysis pipeline. BMC Bioinformatics 19: 175.<br>
+Westreich S.T., Treiber M.L., Mills D.A., Korf I., Lemay D.G., 2018. SAMSA2: a standalone metatranscriptome analysis pipeline. BMC Bioinformatics 19: 175.<br>
 Maruki, T., He, X., Hechler, R. M., Gamero, W. M., Gros, M., Belley, V., Nault, C., Fussmann, 
 G. F., Gonzalez, A., Fugère, V., and Cristescu, M. E., Environmental RNA captures eukaryotic community and gene expression responses to eutrophication in freshwater ecosystems.  In revision.<br>
