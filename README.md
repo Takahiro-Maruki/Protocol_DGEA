@@ -5,6 +5,7 @@ Protocol for the differential gene expression analysis in the environmental tran
 g++ -o ext_reads_taxon ext_reads_taxon.cpp -lm<br>
 g++ -o freq_perc freq_perc.cpp -lm<br>
 Download and install taxonkit following the instructions at https://bioinf.shenwei.me/taxonkit/download/<br>
+Install the R package DESeq2 following the instructions at https://bioconductor.org/packages/release/bioc/html/DESeq2.html<br>
 chmod u+x KM_PF_run_DESeq_stats.R<br> 
 
 1. Extract sequence reads mapped to a class of interest (e.g., Eurotatoria) from a DIAMOND output table in the BLAST tabular format.<br>  
